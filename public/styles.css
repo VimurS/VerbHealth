@@ -1,0 +1,189 @@
+#header{
+    margin-top: 0px;
+    padding: 10px;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #162d3b;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.logodiv{
+    display: block;
+   
+}
+
+.headtog{
+    float: right;
+    padding: 4px;
+    display: block;
+}
+
+.headtext{
+    color: white;
+}
+
+#bodyContent img{
+    width: 100%;
+    background-size: contain;
+}
+
+ #bodyContent :hover {
+    opacity: 0.95;
+    cursor: pointer;
+}
+
+/* these two make the button center in image bg */
+
+.bodyDiv{
+    width: 100%;
+    position: relative;
+}
+
+.wlText{
+    position: absolute;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    top: 45%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.slogan{
+position: absolute;
+color: aliceblue;
+width: 100%;
+text-align: center;
+font-size: 15px;
+top: 50%;
+left: 50%;
+padding: 10px;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
+
+.bodyBtn{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    background-color: aquamarine;
+    border-radius: 25px;
+    color: #193444;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 12px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* until this */
+
+
+#footer{
+    background-color: #162d3b;
+    color: aliceblue;
+}
+
+.ftText{
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+
+@media  (min-width:405px) and (max-width:900px) {
+.slogan{
+    top: 55%;
+}
+
+.bodyBtn{
+    top: 80%;
+}
+}
+
+@media  (min-width:200px) and (max-width:405px) {
+    #header{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .logodiv{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .headtog{
+        text-align: center;
+    }
+
+    .wlText{
+        font-size: 22px;
+    }
+
+    .slogan{
+        top: 55%;
+        font-size: 11px;
+    }
+    
+    .bodyBtn{
+        top: 80%;
+        font-size: 12px;
+    }
+    
+}
+
+
+
+/* patient page */
+
+#patHeader{
+margin-top: 0;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.hospLogo{
+    width: 40px;
+    margin-left: 10px;
+}
+
+.patNav{
+background-color: #685ae8;
+}
+
+.navbar-nav li{
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+.nav.navbar-fixed-top .dropdown-menu {
+ text-align: center;
+ }
+
+ ul.dropdown-menu.show {
+    padding: 0px;
+}
+
+ .dropdown-menu :hover {
+    /* color: var(--bs-dropdown-link-hover-color); */
+    background-color: #d0d8e0;
+    cursor: pointer;
+ }
+
+/* doctor's page */
+
+.doctNav{
+    background-color: rgb(40 214 145);;
+}
